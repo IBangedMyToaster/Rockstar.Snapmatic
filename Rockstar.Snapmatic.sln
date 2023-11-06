@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{B209C744-E809-4A16-972F-F8F1C72946FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockstar.Snapmatic", "Rockstar.Snapmatic\Rockstar.Snapmatic.csproj", "{942FA986-4FBE-418E-885A-F2DCA0636C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B209C744-E809-4A16-972F-F8F1C72946FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B209C744-E809-4A16-972F-F8F1C72946FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B209C744-E809-4A16-972F-F8F1C72946FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B209C744-E809-4A16-972F-F8F1C72946FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942FA986-4FBE-418E-885A-F2DCA0636C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942FA986-4FBE-418E-885A-F2DCA0636C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942FA986-4FBE-418E-885A-F2DCA0636C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942FA986-4FBE-418E-885A-F2DCA0636C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD95FE70-E379-4D9C-90D5-DF8A5F710111}
+	EndGlobalSection
+EndGlobal
