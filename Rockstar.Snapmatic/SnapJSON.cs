@@ -19,9 +19,5 @@
         public long creat { get; set; }
         public bool slf { get; set; }
         public bool drctr { get; set; }
-
-        public SnapLocation SnapLocation { get; set; } = null!;
-
-        public SnapTime SnapTime { get; set; } = null!;
     }
 }

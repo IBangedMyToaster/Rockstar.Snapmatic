@@ -17,21 +17,5 @@ namespace Rockstar.Snapmatic
         public string ImageFormat { get; internal set; } = null!;
         public SnapImage Image { get; internal set; } = null!;
         public DateTime Creation { get; internal set; }
-
-        public SnapJSON SnapJSON
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public SnapImage SnapImage
-        {
-            get => default;
-            set
-            {
-            }
-        }
     }
 }
