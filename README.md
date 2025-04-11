@@ -4,15 +4,27 @@
  <img alt="GitHub " src="https://img.shields.io/github/license/IBangedMyToaster/Rockstar.Snapmatic">
  <img alt="GitHub " src="https://img.shields.io/github/issues-raw/IBangedMyToaster/Rockstar.Snapmatic">
  <img alt="GitHub " src="https://img.shields.io/github/issues-closed-raw/IBangedMyToaster/Rockstar.Snapmatic">
+ <img alt="GitHub" src="https://img.shields.io/nuget/v/Rockstar.Snapmatic.svg">
 </p>
 
 ---
 
-### This Library lets you easily convert GTA 5/Online Snapmatic Files to Jpeg/Png.
+A .NET library for reading, decoding, and extracting metadata from GTA V Snapmatic files, including image data and in-game location information.
 
-__Usage__
-In order to use this library in your own project it is pretty straight forward.
-Add the nuget package to your project and add the namespace "Rockstar.Snapmatic".
-From there you can simply call Snapmatic.Load(exampleFilePath) to obtain a corrisponding [[Snap]] object.
+Using this library in your project is simple:
 
-#### **_This Project has no relation to Rockstar Games_**
+1. Install the [NuGet package](https://www.nuget.org/packages/Rockstar.Snapmatic).
+    
+2. Add the namespace:
+```
+    using Rockstar.Snapmatic;
+```
+       
+3. Load a Snapmatic file with:
+```
+    Snap snap = Snapmatic.Load(filePath);
+```
+
+This returns a `Snap` object containing the image data (as a byte array) along with metadata such as the in-game location.
+
+> ⚠️ **Disclaimer**: This project is **not affiliated with or endorsed by Rockstar Games.**
