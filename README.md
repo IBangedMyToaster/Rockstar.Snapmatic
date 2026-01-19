@@ -27,4 +27,5 @@ Using this library in your project is simple:
 
 This returns a `Snap` object containing the image data (as a byte array) along with metadata such as the in-game location.
 
-> ⚠️ **Disclaimer**: This project is **not affiliated with or endorsed by Rockstar Games.**
+> [!IMPORTANT]
+> This project is **not affiliated with or endorsed by Rockstar Games.**
